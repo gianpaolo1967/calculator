@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Mini calculator (alerts)</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var x = prompt ('type a digit', '');
+		var s = prompt ('what to do', '');
+		var n = prompt ('type another digit', '');
+		var result = function (x, n) {
+		if (s == '+') {
+			return x*1 + n*1;
+		}
+		else if (s == '-') {
+			return x - n;
+		}
+		else if (s == '*') {
+			return x * n;
+		}
+		else {
+			return x / n;
+		}
+	};
+	alert (result);
+			
+		
+	</script>
+</body>
+</html>
